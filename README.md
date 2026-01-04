@@ -8,32 +8,32 @@ This is a full-stack application that displays the top-performing sellers for ea
 
 ## Project Structure
 
-TopSellers Dashboard (.NET + React)_Vilda/
-├── Backend/
-│ ├── SellersReport.API/ # .NET Core backend with clean architecture
-│ │ ├── Controllers/
-│ │ ├── Models/
-│ │ ├── Services/
-│ │ ├── SellersReport.API.csproj
-│ │ └── orders.csv
-│ └── SellersReport.sln
-
-Frontend/sellers-report-frontend/
-├── node_modules/
-├── src/
-│ ├── api/ # API service calls to the backend
-│ ├── components/ # Reusable UI components (dropdowns, tables)
-│ ├── models/ # TypeScript interfaces
-│ ├── pages/ # Page-level components
-│ ├── styles/
-│ ├── App.tsx
-│ ├── index.tsx
-│ ├── setupTests.ts
-│ └── react-app-env.d.ts
-├── jest.config.js
-├── jest.setup.js
-├── tsconfig.json
-├── package.json
+- **TopSellers Dashboard (.NET + React)**
+  - **Backend**
+    - **SellersReport.API** – .NET Core backend
+      - Controllers/
+      - Models/
+      - Services/
+      - SellersReport.API.csproj
+      - orders.csv
+    - SellersReport.sln
+  - **Frontend** – React + TypeScript
+    - sellers-report-frontend/
+      - node_modules/
+      - src/
+        - api/ – API service calls
+        - components/ – Dropdowns, tables, etc.
+        - models/ – TypeScript interfaces
+        - pages/ – Page-level components
+        - styles/
+        - App.tsx
+        - index.tsx
+        - setupTests.ts
+        - react-app-env.d.ts
+      - jest.config.js
+      - jest.setup.js
+      - tsconfig.json
+      - package.json
 
 ### Features
 - Filter by branch
