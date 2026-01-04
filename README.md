@@ -2,7 +2,12 @@
 ## Overview
 This is a full-stack application that displays the top-performing sellers for each month, filtered by branch.
 
+## Demo
+
 ## Project Structure
+
+![Frontend Screenshot](FrontendInterface.png)
+
 
 TopSellers Dashboard (.NET + React)_Vilda/
 ├── Backend/
