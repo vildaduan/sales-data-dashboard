@@ -4,11 +4,9 @@ This is a full-stack application that displays the top-performing sellers for ea
 
 ## Demo
 
-## Project Structure
-
 ![Frontend Screenshot](FrontendInterface.png)
 
-
+## Project Structure
 TopSellers Dashboard (.NET + React)_Vilda/
 ├── Backend/
 │   ├── SellersReport.API/ # .NET Core backend with clean architecture
